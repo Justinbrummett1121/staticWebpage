@@ -42,7 +42,7 @@ h6{
 .imagePart{
     height: 500px;
     background-repeat: no-repeat;
-    background-image:url("../Assets/huluBackground.jpg");
+    background-image:url("./Assets/huluBackground.jpg");
     background-size: auto 750px;
     background-position: center;
     color: white;
@@ -56,6 +56,8 @@ h6{
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 10% 10% 10% 10%;
+    border: .5px solid;
 }
 
 .adBox{
@@ -123,4 +125,8 @@ h5{
 .signInButton button{
     border: none !important;
     color: rgb(102, 102, 102) !important;
+}
+
+.navBar{
+    background-color: transparent;
 }
