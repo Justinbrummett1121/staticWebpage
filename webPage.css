@@ -122,11 +122,36 @@ h5{
     width: 1518px;
 }
 
-.signInButton button{
-    border: none !important;
-    color: rgb(102, 102, 102) !important;
+.navBar{
+    height: 75px;
+    background-color: transparent;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
 }
 
-.navBar{
+.huluLogo img{
+    top: 3%;
+    left: 2%;
+    position: absolute;
+}
+
+.signIn{
+    left: 93%;
+    position: absolute;
+    top: 3%;
+    background-color: transparent !important;
+    border: none;
+    background-repeat: no-repeat;
+}
+
+html:not([data-scroll="0"]) nav {
+    background-color: white;
+    color: black;
+}
+
+nav{
     background-color: transparent;
 }
